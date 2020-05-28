@@ -1,0 +1,19 @@
+div(class="room-container room-container_style-main")
+    div(class="room-creator room-creator_style-main")
+        div(class="room-creator__input-wrapper")
+            div(class="room-creator__text") Создать комнату
+            input(class="room-creator__input" id="roomInput" type="text" placeholder="Имя комнаты:")
+        img(class="room-creator__image",
+            id="add",
+            src=templateObject.addIconUrl)
+    each room, num in templateObject.rooms
+        div(class="room-card room-card_style-main")
+            div(class="room-card__name-text") 
+                div(class="text-block") #{room.roomName}
+            div(class="room-card__input-wrapper")
+                div(class="room-card__login-text") Вевидете ваше имя в комнате
+                input(class="room-card__input" type="text" placeholder="Ваше имя:")
+            div(class="room-card__join-button" id=room.roomName) Войти
+            - let counterId = "counter" + room.roomName;
+            div(class="room-card__amount" id=counterId)
+            

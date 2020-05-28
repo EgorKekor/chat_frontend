@@ -1,0 +1,10 @@
+.chat-container__input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    width: var(--chat-container__input-width);
+    height: var(--chat-container__input-height);
+    min-height: var(--chat-container__input-height);
+}

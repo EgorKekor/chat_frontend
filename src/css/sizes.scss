@@ -1,0 +1,34 @@
+:root{
+    //RoomContainerT
+    --room-container-width: calc(50vw);
+    --room-container-height: calc(80vh);
+
+        --room-create-width: calc(30%);
+        --room-create-height: calc(20%);
+        --room-create-vertical_margin: 20px;
+
+        --room-card-width: calc(90%);
+        --room-card-height: calc(20%);
+        --room-card-vertical_margin: 20px;
+
+    //ChatT
+    --chat-container-width: calc(30vw);
+    --chat-container-height: calc(80vh);
+
+        --message-container-width: calc(90%);
+        --message-container-height: calc(75%);      
+
+            --chat-message-width: calc(95%);
+            --chat-message-height: calc(20%);
+            --chat-message-vertical_margin: 20px;
+        
+        --chat-container__input-width: calc(90%);
+        --chat-container__input-height: calc(10%);
+
+        --button-container-width: calc(90%);
+        --button-container-height: calc(15%);
+
+            --button-container-button-width: calc(100%);
+            --button-container-button-height: calc(100%);
+    //
+};

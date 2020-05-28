@@ -1,0 +1,11 @@
+.chat-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: var(--chat-message-width);
+    max-width: var(--chat-message-width);
+    min-width: var(--chat-message-height);
+    margin: var(--chat-message-vertical_margin), 0px;
+}

@@ -1,0 +1,12 @@
+.message-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    padding-top: 10px;
+
+    width: var(--message-container-width);
+    height: var(--message-container-height);
+    min-height: var(--message-container-height);
+}

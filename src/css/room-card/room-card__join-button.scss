@@ -1,0 +1,18 @@
+.room-card__join-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 20%;
+    height: 50%;
+
+    background-color: var(--color-bg-room-card);
+    border: 2px solid var(--color-border-room-card);
+
+    margin-right: 10px;
+}
+
+.room-card__join-button:hover {
+    background-color: var(--color-bg_hover-room-card);
+}

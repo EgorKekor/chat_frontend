@@ -1,0 +1,70 @@
+@import "sizes";
+
+@import "room-container/room-container";
+@import "room-container/room-container_style/room-container_style-main";
+
+@import "room-card/room-card";
+@import "room-card/room-card_style/room-card_style-main";
+@import "room-card/room-card__input-wrapper";
+@import "room-card/room-card__input";
+@import "room-card/room-card__amount";
+@import "room-card/room-card__join-button";
+@import "room-card/room-card__login-text";
+@import "room-card/room-card__name-text";
+
+@import "room-creator/room-creator";
+@import "room-creator/room-creator__text";
+@import "room-creator/room-creator__image";
+@import "room-creator/room-creator__input";
+@import "room-creator/room-creator__input-wrapper";
+@import "room-creator/room-creator_style/room-creator_style-main";
+
+@import "message-container/message-container";
+
+@import "chat-message/chat-message";
+
+@import "chat-container/chat-container";
+@import "chat-container/chat-container_style/chat-container_style-main";
+@import "chat-container/chat-container__input";
+@import "chat-container/chat-container__name";
+
+@import "button-container/button-container";
+@import "button-container/button-container__button";
+
+
+@import "text-block/text-block";
+
+
+:root {
+    --color-bg-dark: rgb(23, 21, 32);
+    --color-bg-middle: rgb(114, 105, 158);
+    --color-bg-light: rgb(198, 190, 240);
+
+    --color-success: #72f1b8;
+    --color-danger: #920031;
+
+    --color-bg-room-container: rgb(245, 248, 195);
+
+    --color-bg-room-card: var(--color-bg-middle);
+    --color-bg_hover-room-card: var(--color-bg-light);
+    --color-border-room-card: var(--color-bg-light);
+    --color-border_hover-room-card: var(--color-bg-middle);
+
+    --color-bg-room-create: var(--color-bg-middle);
+    --color-border-room-create: var(--color-bg-light);
+    
+
+    --font-color: rgb(0, 0, 0);
+  
+    --main-width: 90vw;
+  }
+  
+  body {
+    background-color: var(--color-bg-light);
+  
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-feature-settings: "kern";
+    font-size: var(--font-size);
+    font-weight: 600;
+  }
+  
