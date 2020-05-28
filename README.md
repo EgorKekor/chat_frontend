@@ -1,5 +1,9 @@
 # chat_frontend
 
+## [Backend Golang](https://github.com/EgorKekor/chat_backend)
+---
+## [Frontend JavaScript ES6](https://github.com/EgorKekor/chat_frontend)
+
 ## Задание:
 
 Необходимо создать чат с WEB-интерфейсом. Должно быть реализовано 2 компонента:
@@ -15,8 +19,15 @@
 - Для отображения новых сообщений у клиента нужно использовать вебсокеты.
 
 
-[Backend](https://github.com/EgorKekor/chat_backend)
-[Frontend](https://github.com/EgorKekor/chat_frontend)
 
-![screenshot of sample](http://webdesign.ru.net/images/Heydon_min.jpg)
+### ...Отправляет два сообщения
+![screenshot of sample](https://github.com/EgorKekor/chat_frontend/blob/master/screens/1.jpg)
 
+### Кажется что то пришло
+![screenshot of sample](https://github.com/EgorKekor/chat_frontend/blob/master/screens/2.jpg)
+
+### Подбодрю разработчика веселой песней!
+![screenshot of sample](https://github.com/EgorKekor/chat_frontend/blob/master/screens/3.jpg)
+
+### Больше никто не пишет
+![screenshot of sample](https://github.com/EgorKekor/chat_frontend/blob/master/screens/4.jpg)
