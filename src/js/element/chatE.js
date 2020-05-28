@@ -22,18 +22,25 @@ class ChatE {
         const messageContainer = document.getElementById("message-container");
 
         for (const record of recordsArray) {
-            const messageElem = document.createElement("div");
-            messageElem.className += "chat-message";
+            const chat_message = document.createElement("div");
+            chat_message.className += "chat-message";
 
-            const usernameElem = document.createElement("div");
-            usernameElem.textContent = record.userName;
-            messageElem.appendChild(usernameElem);
+                const chat_message__flex = document.createElement("div");
+                chat_message__flex.className += "chat-message__flex";
 
-            const textElem = document.createElement("div");
-            textElem.textContent = record.message;
-            messageElem.appendChild(textElem);
+                    const chat_message__sender = document.createElement("div");
+                    chat_message__sender.className += "chat-message__sender text-block text-block_margin";
+                    chat_message__sender.textContent = record.userName;
+                    chat_message__flex.appendChild(chat_message__sender);
 
-            messageContainer.appendChild(messageElem);
+                    const chat_message__text = document.createElement("div");
+                    chat_message__text.className += "chat-message__text text-block text-block_margin";
+                    chat_message__text.textContent = record.message;
+                    chat_message__flex.appendChild(chat_message__text);
+
+                chat_message.appendChild(chat_message__flex);
+
+            messageContainer.appendChild(chat_message);
         }
 
         ModelM.readNotify();

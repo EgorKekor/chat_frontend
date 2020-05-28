@@ -7,4 +7,9 @@
     width: var(--button-container-width);
     height: var(--button-container-height);
     min-height: var(--button-container-height);
+
+    margin-bottom: 10px;
+
+    border: 2px solid var(--color-border-room-card);
+    border-radius: 5px;
 }

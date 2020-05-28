@@ -1,0 +1,9 @@
+.chat-message__text {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 90%;
+    min-width: 90%;
+}

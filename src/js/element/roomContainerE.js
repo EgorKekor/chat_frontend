@@ -21,7 +21,7 @@ class RoomContainerE {
 
     _updateAmount = (content) => {
         const counter = document.getElementById("counter" + content.roomName);
-        counter.innerHTML = content.newMessages;
+        counter.innerHTML = "+" + content.newMessages;
     }
 
     create(root = document.getElementById("application")) {

@@ -1,7 +1,9 @@
-.room-creator__text {
+.chat-message__sender {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
+
+    width: 90%;
+    min-width: 90%;
 }

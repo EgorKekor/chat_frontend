@@ -1,5 +1,8 @@
 import { DomEventsWrapperMixin } from "../DomEventsWrapperMixin.js";
 import ModelM from "../model/modelM.js";
+import {R_ROUTE_TO} from "../modules/events.js";
+import { ROOT } from "../paths.js";
+import Bus from "../eventBus";
 
 
 class ChatC {
@@ -25,6 +28,10 @@ class ChatC {
             return;
         }
         ModelM.sendMessage(userText);
+    }
+
+    _back = (event) => {
+        Bus.emit(R_ROUTE_TO, ROOT);
     }
 
 

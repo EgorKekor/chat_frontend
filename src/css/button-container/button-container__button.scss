@@ -6,4 +6,10 @@
 
     width: var(--button-container-button-width);
     height: var(--button-container-button-height);
+
+    background-color: var(--color-bg-room-card);
+}
+
+.button-container__button:hover {
+    background-color: var(--color-border-room-card);
 }

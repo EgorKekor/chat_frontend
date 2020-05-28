@@ -1,11 +1,12 @@
 div(class="chat-container chat-container_style-main")
-    div(class="chat-container__name") #{templateObject.currentRoom}
+    div(class="chat-container__name") Room Name: #{templateObject.currentRoom}
     div(class="message-container" id="message-container")
         each rec, num in templateObject.history
             div(class="chat-message")
-                div() #{rec.userName}
-                div() #{rec.message}
-    input(class="chat-container__input" type="text" placeholder="Напишите сообщение..." id="messageInput")
+                div(class="chat-message__flex")
+                    div(class="chat-message__sender text-block text-block_margin") From: #{rec.userName}
+                    div(class="chat-message__text text-block text-block_margin") Message: #{rec.message}
+    input(class="chat-container__input" type="text" placeholder="Напишите сообщение..." id="messageInput" autocomplete="off")
     div(class="button-container")
         div(class="button-container__button" id="back") Назад
         div(class="button-container__button" id="send") Отправить

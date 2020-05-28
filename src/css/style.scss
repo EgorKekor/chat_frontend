@@ -22,6 +22,9 @@
 @import "message-container/message-container";
 
 @import "chat-message/chat-message";
+@import "chat-message/chat-message__text";
+@import "chat-message/chat-message__sender";
+@import "chat-message/chat-message__flex";
 
 @import "chat-container/chat-container";
 @import "chat-container/chat-container_style/chat-container_style-main";
@@ -33,6 +36,7 @@
 
 
 @import "text-block/text-block";
+@import "text-block/text-block_margin";
 
 
 :root {

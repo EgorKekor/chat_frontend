@@ -1,0 +1,13 @@
+.chat-message__flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    background-color: var(--color-bg-middle);
+    margin-top: 20px;
+    border-radius: 20px;
+
+    width: 90%;
+    min-width: 90%;
+}
