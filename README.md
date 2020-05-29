@@ -1,4 +1,16 @@
 # chat_frontend
+---
+### 1) git clone git@github.com:EgorKekor/chat_frontend.git
+---
+### 2) cd chat_frontend/
+---
+### 3) npm install
+---
+### 4) npm run dev-server
+---
+### 5) В Браузере: http://localhost:8080/
+---
+### Авторизация в комнате осуществляется по cookie, т.е. в каждую комнату, мы можем зайти только 1 раз(далее в этой комнате наша кука ассоциируется с логином), если логин существует - войти не можем, но можем войти под своим логином повторно.
 
 ## [Backend Golang](https://github.com/EgorKekor/chat_backend)
 ---
