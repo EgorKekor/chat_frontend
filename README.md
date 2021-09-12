@@ -41,11 +41,11 @@
 ### ...Отправляет два сообщения
 ![screenshot of sample](https://github.com/EgorKekor/chat_frontend/blob/master/screens/1.jpg)
 
-### Кажется что то пришло
+### По вебсокету обновляется бейдж с количеством сообщений
 ![screenshot of sample](https://github.com/EgorKekor/chat_frontend/blob/master/screens/2.jpg)
 
-### Подбодрю разработчика веселой песней!
+### Пользователь заходит прочитать сообщения, отправляет свои и выходит обратно в меню
 ![screenshot of sample](https://github.com/EgorKekor/chat_frontend/blob/master/screens/3.jpg)
 
-### Больше никто не пишет
+### Непрочитанных сообщений больше нет
 ![screenshot of sample](https://github.com/EgorKekor/chat_frontend/blob/master/screens/4.jpg)
